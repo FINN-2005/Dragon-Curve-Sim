@@ -4,7 +4,7 @@ from math import radians, sin, cos, sqrt, pow
 import numpy as np
 import cupy as cp
 
-RES = W,H = 1280,720
+RES = W,H = 800,600
 HW, HH = W/2, H/2
 
 FPS = 60

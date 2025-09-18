@@ -1,5 +1,8 @@
 from classses import *
 
+# IMPORTANT: MAKE SURE YOU CLOSE THE SIMULATION BEFORE IT GET'S BELOW 9 FPS, OTHERWISE YOUR COMPUTER WILL HANG.
+
+
 class Game:
     def __init__(self):
         self.screen = pygame.display.set_mode(RES, pygame.SRCALPHA)
@@ -14,8 +17,8 @@ class Game:
         self.is_rotating = False
         
     def update(self):
-        # if not self.is_rotating:              # uncomment this to rotate automatically
-        #     self.mouse_pressed()              # otherise, click to rotate
+        if not self.is_rotating:              # uncomment this to rotate automatically
+            self.mouse_pressed()              # otherise, click to rotate
             
         verts = self.vertices.copy()
         fps = int(self.clock.get_fps())
