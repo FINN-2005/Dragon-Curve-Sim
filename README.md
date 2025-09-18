@@ -7,8 +7,8 @@ Simulation of the Dragon Curve fractal unfolding step-by-step using matrix math 
 Using simple 2D Matrix Transformations to make a Dragon Curve Unfolding Animation.
 
 There are 2 Modes:
-    - Automatic (uncomment line 17,18 in main.py)
-    - Manual   (comment line 17,18 in main.py) (use mouse clicks to step the Unfolding)
+1) Automatic (uncomment line 17,18 in main.py)
+2) Manual   (comment line 17,18 in main.py) (use mouse clicks to step the Unfolding)
 
 ## Installation
 
